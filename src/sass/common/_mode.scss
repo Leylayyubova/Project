@@ -1,0 +1,404 @@
+body {
+    &.dark_mode {
+        background-color: black;
+        color: #fff;
+
+        .site-header {
+            background-color: black;
+
+            .top {
+                background-color: black;
+
+                .container {
+                    .topbar {
+                        .menu {
+
+                            li {
+                                a {
+                                    color: #fff;
+                                }
+                            }
+                        }
+
+                        .hidden-mobile {
+
+                            #btn1,
+                            #btn2 {
+                                background: rgba(255, 255, 255, .1);
+                                color: #fff;
+                            }
+
+                            #btn2 {
+                                border: rgba(255, 255, 255, .1);
+                            }
+
+                        }
+
+                        .toggle-btn {
+                            button {
+                                background: #fff;
+
+                                i {
+                                    color: black;
+
+                                }
+                            }
+
+                        }
+
+                        .all {
+                            button {
+                                background: rgba(255, 255, 255, .1);
+                                color: #fff;
+                            }
+                        }
+                    }
+
+                }
+            }
+
+            .container {
+                background-color: black;
+                color: #fff;
+
+                .menubar {
+                    .menus {
+                        li {
+                            a {
+                                color: #fff;
+                            }
+                        }
+                    }
+
+                }
+
+                .phone {
+
+                    a {
+                        background-color: black;
+                        border: 1px solid #969696;
+
+                        span {
+                            color: #fff;
+                        }
+                    }
+                }
+            }
+        }
+
+        .wrapper {
+            .cards {
+                .card {
+                    .inner {
+                        background-color: rgba(255, 255, 255, .1);
+
+                        .content {
+                            h3 {
+                                color: #fff;
+                            }
+
+                            h2 {
+                                color: $bg;
+                            }
+
+                            p {
+                                color: #fff;
+                            }
+
+                            button {
+                                color: $bg;
+                                color: #fff;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .ucard {
+            .container {
+                background-color: rgba(255, 255, 255, .1);
+
+                .content {
+                    p {
+                        color: #fff;
+                    }
+
+                    .btn-mobile {
+                        .btn {
+                            button {
+                                color: #fff;
+                                background-color: $bg;
+                                border: $bg;
+                            }
+                        }
+
+                        button {
+                            background-color: rgba(30, 30, 30, 0.1);
+                            border: 1px solid #969696;
+                            
+                            a {
+                                color: #545454;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .ubank {
+            .container {
+                background-color: rgba(255, 255, 255, .1);
+
+                .content {
+                    p {
+                        color: #fff;
+                    }
+
+                    .store {
+                        img {
+                            background-color: rgba(255, 255, 255, .1);
+                            color: #969696;
+                            border: 1px solid #969696;
+                            border-radius: 5px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .exchange {
+            .container {
+                background-color: rgba(255, 255, 255, .1);
+                #exchangeRates {
+                    .exchange-cash, .exchange-noncash, .exchange-card {
+                        h3,span {
+                            color: #fff;
+                        }
+                        table {
+                            th {
+                                color: rgba(255,255,255,.5);
+                            }
+                            td {
+                                color: #fff;
+                            }
+                        }
+                    }
+
+                }
+                .currency {
+                    background-color: rgba(255,255,255,.1);
+                    h3,p{
+                        color: #fff;
+                    }
+                    .calc  {
+                     .calc-up, .calc-down, input, select {
+                         background-color: #464646;
+                         color: #fff;
+                     }
+                    }
+                }
+            }
+        }
+
+        .new {
+            .container {
+                .cards {
+                    .card {
+                        background-color: rgba(255, 255, 255, .1);
+                        .inner {                          
+                            .content {
+                                background-color: rgba(255, 255, 255, .1);
+
+                                h3 {
+                                    color: #fff;
+
+                                }
+
+                                p {
+                                    color: #fff;
+                                }
+
+                                span {
+                                    color: #fff;
+                                }
+                            }
+
+                        }
+
+                    }
+                }
+            }
+        }
+
+        .location {
+
+            .container {
+                .cards {
+
+                    .utm {
+                        background-color: rgba(255, 255, 255, .1);
+
+                        .content {
+
+
+                            p {
+                                color: #fff;
+                            }
+                        }
+
+                    }
+
+                    .card {
+                        background-color: rgba(255, 255, 255, .1);
+
+                        .content {
+
+                            p {
+                                color: #fff;
+                            }
+                        }
+
+                    }
+                }
+            }
+        }
+
+        .crbar {
+            .container {
+                .footermenus {
+                    .menu {
+                        .firstmenu {
+                            a {
+                                color: #fff;
+                            }
+                        }
+
+                        .child {
+                            a {
+                                color: #fff;
+                            }
+                        }
+                    }
+                }
+
+                .socnets {
+                    i {
+                        color: black;
+                    }
+                }
+            }
+        }
+
+        .kreditler {
+            .container {
+                .kredit {
+                    .card {
+                        .inner {
+                            background: rgba(255, 255, 255, .1);
+
+                            h2 {
+                                color: #fff;
+                            }
+
+                            p {
+                                color: #fff;
+                            }
+
+                            .button-details {
+                                border-color: #969696;
+                                background: rgba(25, 24, 24, 0.1);
+                                color: #545454;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .emanetler {
+            .container {
+                .emanet {
+                    .card {
+                        .inner {
+                            background: rgba(255, 255, 255, .1);
+
+                            h2 {
+                                color: #fff;
+                            }
+
+                            p {
+                                color: #fff;
+                            }
+
+                            .button-details {
+                                border-color: #969696;
+                                background: rgba(255, 255, 255, .1);
+                                color: #545454;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .partnyor {
+            .container {
+                .cashback {
+                    background: rgba(255, 255, 255, .1);
+                    .selectholder {
+                        p {
+                            color: #fff;
+                        }
+
+                        select {
+                            background-color: rgba(255, 255, 255, .1);
+                            color: #fff;
+                        }
+                        input {
+                            background-color: rgba(255, 255, 255, .1);
+                            color: #fff;
+                        }
+                    }
+                }
+
+                .partnyorlar{
+                .cards {
+                    .card {
+                        background: rgba(255, 255, 255, .1);
+                        .inner {
+                            
+                            h3,p,span {
+                                color: #fff;
+                            }
+                            .credit-option{
+                                color: #fff;
+                                background-color: black;
+                            }
+                        }
+                    }
+                }
+                }
+
+            }
+        }
+
+        .innovation {
+            .container {
+                .card {
+                    background: rgba(255, 255, 255, .1);
+
+                    .inner {
+
+                        h3,
+                        p,
+                        span {
+                            color: #fff;
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>uform</title>
+    <link rel="stylesheet" href="../src/sass/style.css">
+</head>
+
+<body>
+    <main>
+        <section class="login">
+            <div class="container">
+                <div class="sifaris">
+                <div class="header">
+                    <div class="logo">
+                        <img src="https://onlineservices.unibank.az/OnlineLoanOffer/resources/imgs/logo-horizontal.png"
+                            alt="">
+                    </div>
+                    <div class="filter">
+                        <div class="img">
+                        <img id="flag" src="https://unibank.az/assets/images/azn.png" alt="">
+                    </div>
+                        <select id="secim" onchange="bayragiGoster()">
+                            <option value="az">Azərbaycan</option>
+                            <option value="en">İngilis</option>
+                            <option value="ru">Rus</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="content">
+                    <h2>Kredit sifarişi</h2>
+                    <hr class="line">
+                    <div class="inputdiv">
+                        <div class="input">
+                            <div class="img">
+                                <img src="https://onlineservices.unibank.az/OnlineLoanOffer/javax.faces.resource/account.png.jsp?ln=imgs/icons"
+                                    alt="">
+                                <input type="text" placeholder="Ad, Soyad, Atasının adı">
+                            </div>
+                        </div>
+                        <div class="input">
+                            <div class="img">
+                                <img src="https://onlineservices.unibank.az/OnlineLoanOffer/javax.faces.resource/account.png.jsp?ln=imgs/icons"
+                                    alt="">
+                                <input type="text" placeholder="FIN kodu">
+                            </div>
+                        </div>
+                        <div class="input">
+                            <div class="img">
+                                <img src="https://onlineservices.unibank.az/OnlineLoanOffer/javax.faces.resource/cellphone.png.jsp?ln=imgs/icons"
+                                    alt="">
+                                <input type="number" placeholder="Mobil telefon (994XXXXXXXXXX)">
+                            </div>
+                        </div>
+                        <div class="input">
+                            <div class="img">
+                                <img src="https://onlineservices.unibank.az/OnlineLoanOffer/javax.faces.resource/workplace.png.jsp?ln=imgs/icons"
+                                    alt="">
+                                <input type="text" placeholder="İş yeri">
+                            </div>
+                        </div>
+                        <div class="input">
+                            <div class="img">
+                                <img src="https://onlineservices.unibank.az/OnlineLoanOffer/javax.faces.resource/keyboard-backspace.png.jsp?ln=imgs/icons"
+                                    alt="">
+                                <input type="number" placeholder="Rəsmi gəlir">
+                            </div>
+                        </div>
+                        <label>
+                            <input type="checkbox" name="" id="">
+                            Məlumatlarımın doğruluğunu təsdiq edir, kredit götürmələrim haqqında AKB reyestrindən, şəxsi və iş yerim üzrə hesablaşmalardan ”ASAN Finans”a daxil olmaq hüququ verirəm.
+                        </label>
+                    </div>
+                    <div class="submit">
+                        <button id="submitBtn"><a href="">Sifariş verin</a></button>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+    </main>
+    <script src="../src/js/form.js"></script>
+</body>
+
+</html>

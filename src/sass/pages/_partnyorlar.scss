@@ -1,0 +1,152 @@
+.partnyor {
+    .container {
+        max-width: 1176px;
+        margin: 0 auto;
+
+        h2 {
+            font-size: 32px;
+            font-weight: 800;
+            line-height: 32px;
+            color: #ff6400;
+            margin-bottom: 30px;
+        }
+
+        .cashback {
+            display: flex;
+            border-radius: 10px;
+            background: #fafafa;
+            padding: 5px 20px;
+
+            .selectholder {
+                width: 25%;
+                margin: 30px 8px;
+
+                p {
+                    font-size: 14px;
+                    color: #000;
+                    font-weight: 400;
+                    margin-bottom: 10px;
+                    padding-left: 30px
+                }
+
+                select {
+                    font-size: 14px;
+                    font-weight: 800;
+                    line-height: 23px;
+                    background-color: #fff;
+                    color: #ff7a00;
+                    border-radius: 30px;
+                    border: 1px solid rgba(50, 50, 50, .1);
+                    width: 100%;
+                    height: 60px;
+                    padding: 0 30px;
+
+                }
+
+                input {
+                    border-radius: 30px;
+                    border: 1px solid rgba(50, 50, 50, .1);
+                    width: 100%;
+                    height: 60px;
+                    padding: 0 30px;
+                }
+
+            }
+        }
+
+        .partnyorlar {
+            display: flex;
+            flex-wrap: wrap;
+
+            .cards {
+                display: flex;
+
+                .card {
+                    width: 20%;
+                    margin-left: 5px;
+                    background: #fafafa;
+                    border-radius: 10px;
+                    padding: 45px 50px;
+                    margin-top: 10px;
+                    height: 424px;
+                    width: 286px;
+
+                    .inner {
+                        text-align: center;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        flex-direction: column;
+
+                        .img {
+                            // width: 186px;
+                            height: 75px;
+                            margin-bottom: 30px;
+
+                            img {
+                                width: 100%;
+                                height: 100%;                            }
+                        }
+
+                        h3 {
+                            font-size: 14px;
+                            font-weight: 700;
+                            line-height: 14px;
+                        }
+
+                        p {
+                            font-size: 12px;
+                            color: rgba(0, 0, 0, .5);
+                            margin-bottom: 15px;
+                        }
+
+                        .month {
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            flex-wrap: wrap;
+                            .credit-option {
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: center;
+                                align-items: center;
+                                margin-right: 3px;
+                                width: 58px;
+                                height: 58px;
+                                border-radius: 50%;
+                                border: 1px solid rgba(0,0,0,.1);
+                                color: rgba(0,0,0,.8);
+                                font-size: 10px;
+                                font-weight: 400;
+                                line-height: 10px;
+                                background: #fff;
+                                .zero-percent {
+                                    margin-top: 5px;
+                                    font-size: 12px;
+                                    font-weight: 800;
+                                    color: $bg;
+                                }
+                            }                      
+
+
+                        }                      
+                            .cash {
+                                width: 100%;
+                                height: 50px;
+                                border-radius: 30px;
+                                padding: 16px 20px;
+                                // text-align: center;
+                                background: $bg;
+                                font-weight: 400;
+                                font-size: .9em;
+                                color: #fff;
+                            }
+                        
+                    }
+                }
+
+            }
+        }
+    }
+
+}

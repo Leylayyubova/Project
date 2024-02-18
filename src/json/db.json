@@ -1,0 +1,266 @@
+{
+  "Exchange": [
+    {
+      "id": 1,
+      "type":"Nağd",
+      "date":"Yeniləndi 16.02.2024",
+      "currencies": [
+        {
+          "currency": "USD",
+          "buy": 1.6970,
+          "sell": 1.7025
+        },
+        {
+          "currency": "EUR",
+          "buy": 1.8187,
+          "sell": 1.8713
+        },
+        {
+          "currency": "RUB",
+          "buy": 0.0154,
+          "sell": 0.0190
+        },
+        {
+          "currency": "GBP",
+          "buy": 2.1277,
+          "sell": 2.1860
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type":"Nağdsız",
+      "date":"Yeniləndi 16.02.2024",
+      "currencies": [
+        {
+          "currency": "USD",
+          "buy": 1.6900,
+          "sell": 1.7025
+        },
+        {
+          "currency": "EUR",
+          "buy": 1.8127,
+          "sell": 1.7025
+        },
+        {
+          "currency": "RUB",
+          "buy": 0.0181,
+          "sell": 0.0196
+        },
+        {
+          "currency": "GBP",
+          "buy": 2.1274,
+          "sell": 2.1922
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type":"Kart",
+      "date":"Yeniləndi 16.02.2024",
+      "currencies": [
+        {
+          "currency": "USD",
+          "buy": 1.6800,
+          "sell": 1.7200
+        },
+        {
+          "currency": "EUR",
+          "buy": 1.8100,
+          "sell": 1.8800
+        },
+        {
+          "currency": "RUB",
+          "buy": 0.0185,
+          "sell": 0.0193
+        },
+        {
+          "currency": "GBP",
+          "buy": 2.1200,
+          "sell": 2.2141
+        }
+      ]
+    }
+  ],
+  "Kreditler": [
+    {
+      "id": 1,
+      "icon": "fa-solid fa-cash-register",
+      "title": "Nağd kreditlər",
+      "items": "Planlarını Unibank-ın sərfəli nağd krediti ilə həyata keçir!",
+      "button1": {
+        "text": "Müraciət et <i class='fa-solid fa-arrow-right'></i>",
+        "link": "http://127.0.0.1:5500/Unibank/public/form.html",
+        "action": "applyAction"
+      },
+      "button2": {
+        "text": "Ətraflı",
+        "action": "detailsAction"
+      }
+    },
+    {
+      "id": 2,
+      "icon": "fa-solid fa-shop",
+      "title": "Mikro kreditlər",
+      "items": "Unibank mikro-kreditləri ilə kiçik sahibkarlara dəstək olur! Krediti götür və  biznesini böyüt!",
+      "button1": {
+        "text": "Müraciət et <i class='fa-solid fa-arrow-right'></i>",
+        "action": "applyAction"
+      },
+      "button2": {
+        "text": "Ətraflı",
+        "action": "detailsAction"
+      }
+    },
+    {
+      "id": 3,
+      "icon": "fa-solid fa-house",
+      "title": "İpoteka krediti",
+      "items": "Arzuladığın mənzil əlçatmaz deyil! İndi kredit götür və arzularını reallaşdır!",
+      "button1": {
+        "text": "Müraciət et <i class='fa-solid fa-arrow-right'></i>",
+        "action": "applyAction"
+      },
+      "button2": {
+        "text": "Ətraflı",
+        "action": "detailsAction"
+      }
+    },
+    {
+      "id": 4,
+      "icon": "fa-regular fa-credit-card",
+      "title": "Kredit xətti",
+      "items": " getmədən kredit xəttini dərhal aç",
+      "button1": {
+        "text": "Müraciət et <i class='fa-solid fa-arrow-right'></i>",
+        "action": "applyAction"
+      },
+      "button2": {
+        "text": "Ətraflı",
+        "action": "detailsAction"
+      }
+    }
+  ],
+  "Emanetler": [
+    {
+      "id": 1,
+      "icon": "fa-solid fa-cash-register",
+      "title": "Müddətli ",
+      "items": "Puluna dəyər qat! Əmanət hesabı aç və pulunu artır! ",
+      "btn": "Daha ətraflı <i class='fa-solid fa-arrow-right'></i>"
+    },
+    {
+      "id": 2,
+      "icon": "fa-solid fa-shop",
+      "title": "Yığım ",
+      "items": "Gələcəyini indidən düşün! Minimal məbləğlə daha çox pul qazan.",
+      "btn": "Daha ətraflı  <i class='fa-solid fa-arrow-right'></i>"
+    },
+    {
+      "id": 3,
+      "icon": "fa-solid fa-house",
+      "title": "Proqressiv ",
+      "items": "Əmanətini götürmək üçün 1 il gözləmə! İstədiyin vaxt pulunu əlavə gəlir ilə əldə et.",
+      "btn": "Daha ətraflı  <i class='fa-solid fa-arrow-right'></i>"
+    },
+    {
+      "id": 4,
+      "icon": "fa-regular fa-credit-card",
+      "title": "Topla ",
+      "items": "UBank mobil tətbiqində hədəf yaradaraq pul toplamağa imkan verən rəqəmsal əmanət məhsuludur. ",
+      "btn": "Daha ətraflı  <i class='fa-solid fa-arrow-right'></i>"
+    }
+  ],
+  "News": [
+    {
+      "id": "1",
+      "title": "Məqsədimiz KOB müştərilərimiz üçün də loyallıq və əlavə dəyər yaradan bank mühiti formalaşdırmaqdır - Unibank sədri ",
+      "item": "2023-cü il Unibank üçün hansı nəticələrlə yadda qaldı? Bankın yeni strateji hədəfləri nədir? Yaxın illərdə Unibankın bazardakı mövqeyində hansı yeniliklər olacaq? Bu sualları Unibank KB İdarə Heyətinin sədri Fərid Abuşov müsahibəsində cavablandırıb. ",
+      "date": "06.02.2024"
+    },
+    {
+      "id": "2",
+      "title": "Unibank KB ASC SOC və təhdidlərin aşkarlanması xidmətləri ilə bağlı kotirovka elan edir",
+      "item": "Kotirovkada iştirak etmək istəyənlər qiymət təklifini bağlı və möhürlənmiş zərfdə, kotirovka komissiyasının sədri Tural Həsənovun adına göndərməlidirlər.  Zərflərin qəbulu üçün son tarix 23.01.2024-cü il, saat 12.00-dır.",
+      "date": "2024-01-16"
+    },
+    {
+      "id": "3",
+      "title": "Unibankın investisiyaları nəticə verdi: Əməliyyat mənfəəti 3 dəfə artdı!",
+      "item": "“Unibank” KB ASC 2023-cü ilin əsas maliyyə nəticələrini açıqlayıb. Hesabat dövründə cəmi gəlirlər 37 % artaraq, 319milyon manata çatıb. Bankın gəlirlərindəki yüksəlmə qarşılığında il ərzində bankın xərclərində artım cəmi 15 % olub.    Nəticədə 31 dekabr 2023-cü il tarixinə Bankın əməliyyat mənfəəti əvvəlki ilin uyğun dövrü ilə müqayisədə 3 dəfə artaraq, 75 milyon manata çatıb. Bank hesabat ilini 33 milyon manatlıq xalis mənfəətlə başa vurub.    Eyni zamanda 2023-ci ildə qazanılmış faiz gəlirləri 212 milyon manata çatıb, qeyri-faiz gəlirləri isə 107 milyon manatı ötüb. Bununla da Bankın qeyri-faiz gəlirləri əvvəlki illə müqayisədə 54 %, faiz gəlirləri isə 37 % artıb.  ",
+      "date": "2024-12-01"
+    },
+    {
+      "id": "4",
+      "title": "Unibank KB ASC Qualys lisenziyasının uzadılması ilə bağlı kotirovka elan edir",
+      "item": "Kotirovkada iştirak etmək istəyənlər qiymət təklifini bağlı və möhürlənmiş zərfdə, kotirovka komissiyasının sədri Tural Həsənovun adına göndərməlidirlər.  Zərflərin qəbulu üçün son tarix 19.01.2024-cü il, saat 12.00-dır.",
+      "date": "2024-12-01"
+    },
+    {
+      "id": "5",
+      "title": "Unibankın kapitallaşma proqramı başa çatıb",
+      "item": "Unibankın ötən il Bankın səhmlərinin geri alınması ilə başlayan və mərhələli şəkildə həyata keçirilən kapitallaşma prosesi, bu ilin sonlarında uğurla başa çatıb. Bankın geri alınmış səhmlərinin dövriyyədən çıxarılması ilə bağlı Bank səhmdarlarının növbədənkənar Ümumi Yığıncağının qərarına müvafiq olaraq, qiymətli kağızların dövlət reyestrində hər birinin nominal dəyəri 2,72 manat olan, 4 112 487 ədəd sənədsiz adi adlı səhmlərin dövriyyədən çıxarılması barədə qeydlər aparılıb. ",
+      "date": "26.12.2023"
+    },
+    {
+      "id": "6",
+      "title": "Unibank müştəriləri pulu necə və harada yığır? ",
+      "item": "Bir ildən çoxdur ki müştərilərin istifadəsinə verilən “Unibank”ın “Topla” rəqəmsal məhsulu minlərlə bank müştərisini hədəfinə çatdırıb. UBank mobil əlavəsində “Topla” rəqəmsal məhsulunda pul toplamaq üçün onlayn depozit hesabı açanlar maraqlı hədəflər seçiblər.",
+      "date": "20.12.2023 "
+    },
+    {
+      "id": "7",
+      "title": "Unibank KB ASC SOC və təhdidlərin aşkarlanması xidmətləri ilə bağlı kotirovka elan edir",
+      "item": "Kotirovkada iştirak etmək istəyənlər qiymət təklifini bağlı və möhürlənmiş zərfdə, kotirovka komissiyasının sədri Tural Həsənovun adına göndərməlidirlər.  Zərflərin qəbulu üçün son tarix 23.01.2024-cü il, saat 12.00-dır.",
+      "date": "2024-01-16"
+    },
+    {
+      "id": "8",
+      "title": "Kommunal ödənişlərinizi Unibank mobil tətbiqində edin və qazanın!",
+      "item": "Havalar soyuduqca artan kommunal ödənişlərinizi çox sərfəli və rahat şəkildə ödəyə bilərsiniz. Unibank kartları dekabr ayı ərzində işıq, qaz, su və istilik ödənişlərinə 2% keşbek  verir. İndi UBank mobil tətbiqindən Unibank kartı ilə ödədiyiniz bu kommunal ödənişlərin məbləğinin 2%-i kartınıza qayıdacaq.",
+      "date": "2023-12-01"
+    },
+    {
+      "id": "9",
+      "title": "Unibankdan ödənişi günlük cəmi 1.23 AZN-dən başlayan kredit götürün! ",
+      "item": "Bankdan kredit götürərkən əsas nələrə diqqət edirsiniz? Təbii ki, sizə lazım olan məbləğin verilməsi, aylıq ödənişin sərfəli olması, müddət, sığorta xərci və zamin tələbinin olmaması, ödəniş vaxtını özünüzün seçmək imkanı və bunlarla yanaşı ən əsası rahat və tez rəsmiləşdirməyin mümkünlüyü. ",
+      "date": "24.11.2023"
+    },
+    {
+      "id": "10",
+      "title": "Unibankın yeni filialı açılıb",
+      "item": "Unibank yeni filialını müştərilərin istifadəsinə verib. “Sədərək” Ticarət Mərkəzində yerləşən Unibank Biznes Mərkəzi müştərilərə bütün bank xidmətlərini göstərir. ",
+      "date": "21.11.2023"
+    },
+    {
+      "id": "11",
+      "title": "Unibank KB ASC Cisco və təhdidlərin aşkarlanması xidmətləri ilə bağlı kotirovka elan edir",
+      "item": "Kotirovkada iştirak etmək istəyənlər qiymət təklifini bağlı və möhürlənmiş zərfdə, kotirovka komissiyasının sədri Tural Həsənovun adına göndərməlidirlər.  Zərflərin qəbulu üçün son tarix 23.01.2024-cü il, saat 12.00-dır.",
+      "date": "2024-01-16"
+    },
+    {
+      "id": "12",
+      "title": "Unibank şəhid övladları üçün keçirilən bayram tədbirinə dəstək olub",
+      "item": "Vətən müharibəsində əldə edilən Zəfərin üçüncü ildönümü münasibəti ilə şəhid övladları üçün bayram tədbiri keçirilib. Unibank Qadın və Uşaqların Təhsilinə Dəstək İctimai Birliyi tərəfindən təşkil edilən “Zəfərin uşaqları” adlı bayram tədbirinə dəstək verib. ",
+      "date": "13.11.2023 "
+    },
+    {
+      "id": "13",
+      "title": "Unibank KB ASC Penetration Testing üzrə təklif sorğusu ilə bağlı kotirovka elan edir ",
+      "item": "Kotirovkada iştirak etmək istəyənlər qiymət təklifini bağlı və möhürlənmiş zərfdə, kotirovka komissiyasının sədri Tural Həsənovun adına göndərməlidirlər.  Zərflərin qəbulu üçün son tarix 23.01.2024-cü il, saat 12.00-dır.",
+      "date": "01.11.2023 "
+    },
+    {
+      "id": "14",
+      "title": "Unibank kartları ilə edilən ödənişi hissələrə bölmək daha rahat olub ",
+      "item": "“Unibank”ın UBank mobil tətbiqində istifadəyə verilən yeni xidmət, ödənişlərini hissəli etmək istəyən hər kəs üçün sərfəli yenilikdir. Aylara BÖL adlı funksiya Unibank kredit kartları ilə qeyri-partnyor mağazalarında və onlayn etdiyiniz ödənişləri çox asanlıqla və rahat şəkildə UBank üzərindən 6 aya kimi Bölmək imkanı yaradıb.",
+      "date": "31.10.2023"
+    },
+    {
+      "id": "15",
+      "title": "Unibank KB ASC Dynatrace Host Unit sisteminin 43 lisenziyasının yenilənməsi üçün tender keçirir ",
+      "item": "Tenderdə iştirak etmək istəyənlər qiymət təklifini bağlı və möhürlənmiş zərfdə, tender komissiyasının sədri Faiq Zeynalovun Həsənovun adına göndərməlidirlər.",
+      "date": "23.10.2023"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+@mixin name {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+$breakpoints:(
+    small: 576px,
+    medium: 768px,
+    large: 992px,
+    wide: 1200px
+);
+
+@mixin breakpoint($name){
+    @if map-has-key($breakpoints, $name){
+        @media (min-width: map-get($breakpoints, $name)) {
+            @content
+        }
+    } 
+    @else {   @warn "Warning : `#{$name}` is not a valid breakpoint name."
+}
+};

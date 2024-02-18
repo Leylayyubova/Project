@@ -1,0 +1,1409 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: CocoSharp, Arial;
+  background-color: white;
+  color: black;
+}
+
+.container {
+  max-width: 1176px;
+  margin: 0 auto;
+}
+
+.dark_mode {
+  background-color: black;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+ul {
+  list-style: none;
+}
+
+.site-header .top {
+  display: none;
+  background-color: #fafafa;
+}
+@media (min-width: 992px) {
+  .site-header .top {
+    display: block;
+  }
+}
+.site-header .top .container {
+  margin: 0 auto;
+  max-width: 1176px;
+}
+.site-header .top .container .topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: black;
+  height: 55px;
+}
+.site-header .top .container .topbar .navigation {
+  display: flex;
+  align-items: center;
+}
+.site-header .top .container .topbar .navigation .logo {
+  margin-right: 30px;
+  width: 24px;
+  height: 25px;
+}
+.site-header .top .container .topbar .navigation .logo img {
+  width: 100%;
+  height: 100%;
+}
+.site-header .top .container .topbar .navigation .menu {
+  margin-right: 15px;
+}
+.site-header .top .container .topbar .navigation .menu ul {
+  display: flex;
+  align-items: center;
+}
+.site-header .top .container .topbar .navigation .menu ul li {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 12px;
+  color: #323232;
+  margin: 0 14px;
+}
+.site-header .top .container .topbar .btn {
+  display: flex;
+}
+.site-header .top .container .topbar .btn .hidden-mobile {
+  display: inline-flex;
+}
+.site-header .top .container .topbar .btn .hidden-mobile .default-btn {
+  font-size: 12px;
+  line-height: 12px;
+  padding: 10px 20px;
+  background: #fff;
+  border-radius: 5px;
+  border: 1px solid #fff;
+}
+.site-header .top .container .topbar .btn .hidden-mobile .active-btn {
+  border: 1px solid #ff7a00;
+  color: #ff7a00;
+  font-weight: 600;
+}
+.site-header .top .container .topbar .btn .toggle-btn button {
+  margin-left: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 14px -10px rgba(0, 0, 0, 0.3);
+  background-color: #323232;
+  width: 35px;
+  height: 35px;
+}
+.site-header .top .container .topbar .btn .toggle-btn button i {
+  padding: 9px 10px;
+  color: #fff;
+}
+.site-header .top .container .topbar .btn .all {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.site-header .top .container .topbar .btn .all button {
+  background-color: #fff;
+  border: #fff;
+  color: #323232;
+  line-height: 12px;
+  font-weight: 600;
+  font-size: 12px;
+  box-shadow: 0 2px 14px -10px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  width: 36px;
+  height: 35px;
+  margin-left: 10px;
+}
+.site-header .container {
+  max-width: 1176px;
+  margin: 0 auto;
+}
+.site-header .container .menubar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.site-header .container .menubar .menus {
+  display: flex;
+  margin-bottom: 10px;
+}
+.site-header .container .menubar .menus .ferdi-menu {
+  display: flex;
+}
+.site-header .container .menubar .menus .ferdi-menu li {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 18px;
+  padding: 30px 36px 30px 0;
+}
+.site-header .container .menubar .phone {
+  display: flex;
+  align-items: center;
+}
+.site-header .container .menubar .phone a {
+  padding: 8px 15px;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 25px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background: #fff;
+  height: 45px;
+  line-height: 26px;
+}
+.site-header .container .menubar .phone a i {
+  color: #ff7a00;
+  font-size: 15px;
+  margin-right: 8px;
+}
+
+.crbar {
+  padding: 75px 0 60px;
+}
+.crbar .container {
+  max-width: 1176px;
+  margin: 0 auto;
+  padding: 35px 0 0;
+}
+.crbar .container .footermenus {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.crbar .container .footermenus .menu {
+  padding-bottom: 17px;
+  height: 242px;
+}
+.crbar .container .footermenus .menu .firstmenu {
+  font-size: 14px;
+  padding-bottom: 17px;
+  font-weight: 700;
+}
+.crbar .container .footermenus .menu .child {
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+}
+.crbar .container .footermenus .menu .child a {
+  padding-bottom: 17px;
+}
+.crbar .container .socnets {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 0 20px;
+  border-bottom: 1px solid #d6d9db;
+}
+.crbar .container .socnets .icons {
+  display: flex;
+}
+.crbar .container .socnets .icons .uicon {
+  background-color: #ff6400;
+}
+.crbar .container .socnets .icons div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #a1a1a1;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+.crbar .container .socnets .icons div i {
+  font-size: 12px;
+  color: #fff;
+}
+.crbar .container .socnets .text {
+  font-size: 12px;
+  color: #000;
+  line-height: 29px;
+}
+.crbar .container .footer-text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+.crbar .container .footer-text .text {
+  font-size: 12px;
+}
+.crbar .container .footer-text .text h3 {
+  line-height: 12px;
+  font-weight: 400;
+}
+.crbar .container .footer-text .text p {
+  font-weight: 200;
+  margin-top: 10px;
+}
+.crbar .container .footer-text .partners {
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.crbar .container .footer-text .partners img {
+  margin-left: 30px;
+  width: 100%;
+  height: 100%;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+  height: 450;
+  border-radius: 10px;
+}
+.swiper .container {
+  max-width: 1176px;
+  margin: 0 auto;
+  height: 500px;
+  position: relative;
+}
+.swiper .container .swiper-wrapper .swiper-slide {
+  font-size: 18px;
+  background: #ff6400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 450px;
+}
+.swiper .container .swiper-wrapper .swiper-slide .img {
+  height: 100%;
+  overflow: hidden;
+  max-height: 400px;
+}
+.swiper .container .swiper-wrapper .swiper-slide .img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.swiper .container .swiper-wrapper .swiper-slide .content {
+  margin-left: 20px;
+}
+.swiper .container .swiper-wrapper .swiper-slide .content h3 {
+  max-width: 461px;
+  font-weight: 800;
+  font-size: 34px;
+  color: #fff;
+  margin-bottom: 20px;
+  width: 80%;
+}
+.swiper .container .swiper-wrapper .swiper-slide .content p {
+  font-weight: 400;
+  font-size: 14px;
+  color: #fff;
+  margin-bottom: 40px;
+  line-height: 25px;
+}
+.swiper .container .swiper-wrapper .swiper-slide .content button {
+  background: #fff;
+  color: #ff6400;
+  border-color: #ff6400;
+  border-radius: 25px;
+  border: 1px solid transparent;
+  padding: 16px 25px;
+  font-size: 14px;
+}
+.swiper .container .swiper-pagination {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+  opacity: 1;
+}
+.swiper .container .swiper-pagination .swiper-pagination-bullet {
+  width: 6px;
+  height: 6px;
+  margin: 0 8px;
+  background-color: #ff6400;
+  color: #e6e6e6;
+}
+
+.wrapper {
+  max-width: 1176px;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+.wrapper .cards {
+  display: flex;
+}
+.wrapper .cards .card {
+  width: 25%;
+}
+.wrapper .cards .card .inner {
+  background-color: #fafafa;
+  border-radius: 10px;
+  margin: 0 15px;
+}
+.wrapper .cards .card .inner .content {
+  padding: 40px 50px;
+  text-align: center;
+}
+.wrapper .cards .card .inner .content h3 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #000;
+  margin-bottom: 10px;
+}
+.wrapper .cards .card .inner .content h2 {
+  font-weight: 700;
+  font-size: 52px;
+  color: #ff6400;
+  margin-bottom: 20px;
+}
+.wrapper .cards .card .inner .content p {
+  font-size: 14px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.8);
+  margin-bottom: 20px;
+}
+.wrapper .cards .card .inner .content button {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  border-radius: 25px;
+  background: #ff6400;
+  color: #fff;
+  margin-top: 15px;
+  padding: 15px 45px;
+  border: #ff7a00;
+}
+
+.ucard {
+  padding: 35px 0 0;
+}
+.ucard .container {
+  max-width: 1176px;
+  margin: 0 auto;
+  background: #fafafa;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.ucard .container .img {
+  position: relative;
+  height: 400px;
+  width: 50%;
+}
+.ucard .container .img img {
+  position: absolute;
+  top: -70px;
+  left: -45px;
+  z-index: 1;
+  right: 0;
+  width: 100%;
+  height: 495px;
+}
+.ucard .container .content {
+  margin-right: 70px;
+}
+.ucard .container .content h2 {
+  font-size: 28px;
+  line-height: 28px;
+  font-weight: 800;
+  color: #ff6400;
+  margin: 0 0 20px;
+}
+.ucard .container .content p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #000;
+  line-height: 1.43;
+  margin-bottom: 40px;
+}
+.ucard .container .content .btn-mobile {
+  display: flex;
+}
+.ucard .container .content .btn-mobile .btn button {
+  padding: 16px 25px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 16px;
+  color: #fff;
+  background: #ff6400;
+  border-radius: 25px;
+  border: 1px solid transparent;
+}
+.ucard .container .content .btn-mobile button {
+  background: #fff;
+  border-radius: 25px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 14px 34px;
+  margin: 0 10px 0 0;
+}
+.ucard .container .content .btn-mobile button a {
+  color: #545454;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 16px;
+}
+
+.ubank {
+  padding: 35px 0 0;
+}
+.ubank .container {
+  max-width: 1176px;
+  margin: 0 auto;
+  background: #fafafa;
+  border-radius: 10px;
+  max-height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.ubank .container .content h2 {
+  font-size: 28px;
+  font-weight: 800;
+  line-height: 28px;
+  color: #ff6400;
+  margin: 0 0 20px;
+}
+.ubank .container .content p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.43;
+  color: #000;
+  margin-bottom: 40px;
+}
+.ubank .container .content .store {
+  margin-bottom: 20px;
+}
+.ubank .container .content button {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  color: #fff;
+  margin-right: 12px;
+  padding: 15px 45px;
+  border-radius: 25px;
+  border: #ff6400;
+  background: #ff6400;
+}
+.ubank .container .img {
+  margin-top: -95px;
+}
+.ubank .container .img img {
+  width: 100%;
+  height: 100%;
+}
+
+.exchange {
+  padding: 35px 0 0;
+}
+.exchange .container {
+  max-width: 1176px;
+  margin: 0 auto;
+  background: #fafafa;
+  min-height: 686px;
+  padding: 40px 70px;
+  border-radius: 10px;
+}
+.exchange .container h2 {
+  font-size: 28px;
+  font-weight: 800;
+  line-height: 28px;
+  color: #ff6400;
+  margin: 0 0 40px;
+}
+.exchange .container #exchangeRates {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 50px;
+}
+.exchange .container #exchangeRates .exchange-cash h3,
+.exchange .container #exchangeRates .exchange-noncash h3,
+.exchange .container #exchangeRates .exchange-card h3 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 18px;
+  color: #000;
+  padding-bottom: 10px;
+}
+.exchange .container #exchangeRates .exchange-cash span,
+.exchange .container #exchangeRates .exchange-noncash span,
+.exchange .container #exchangeRates .exchange-card span {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 12px;
+  color: #545454;
+}
+.exchange .container #exchangeRates .exchange-cash table,
+.exchange .container #exchangeRates .exchange-noncash table,
+.exchange .container #exchangeRates .exchange-card table {
+  width: 232px;
+  margin-top: 25px;
+}
+.exchange .container #exchangeRates .exchange-cash table thead,
+.exchange .container #exchangeRates .exchange-noncash table thead,
+.exchange .container #exchangeRates .exchange-card table thead {
+  font-size: 14px;
+  line-height: 18px;
+}
+.exchange .container #exchangeRates .exchange-cash table thead tr,
+.exchange .container #exchangeRates .exchange-noncash table thead tr,
+.exchange .container #exchangeRates .exchange-card table thead tr {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.exchange .container #exchangeRates .exchange-cash table thead tr th,
+.exchange .container #exchangeRates .exchange-noncash table thead tr th,
+.exchange .container #exchangeRates .exchange-card table thead tr th {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 12px;
+  color: #545454;
+}
+.exchange .container #exchangeRates .exchange-cash table thead tr:nth-child(1),
+.exchange .container #exchangeRates .exchange-noncash table thead tr:nth-child(1),
+.exchange .container #exchangeRates .exchange-card table thead tr:nth-child(1) {
+  border-bottom: 1px solid #d6d9db;
+  padding-bottom: 11px;
+}
+.exchange .container #exchangeRates .exchange-cash table thead tr td,
+.exchange .container #exchangeRates .exchange-noncash table thead tr td,
+.exchange .container #exchangeRates .exchange-card table thead tr td {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 14px;
+  color: #323232;
+  padding: 15px 0;
+}
+.exchange .container #exchangeRates .exchange-cash table thead tr td i,
+.exchange .container #exchangeRates .exchange-noncash table thead tr td i,
+.exchange .container #exchangeRates .exchange-card table thead tr td i {
+  font-size: 8px;
+  padding-left: 6px;
+  padding-top: 6px;
+}
+.exchange .container .currency {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #fff;
+  box-shadow: 0 10px 25px -10px rgba(0, 0, 0, 0.1);
+  padding: 50px 30px;
+  border-radius: 10px;
+  max-width: 1036px;
+  margin: 0 auto;
+}
+.exchange .container .currency .currency-text h3 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #000;
+  padding-bottom: 10px;
+}
+.exchange .container .currency .currency-text p {
+  font-size: 12px;
+  line-height: 12px;
+  color: #545454;
+  font-weight: 400;
+}
+.exchange .container .currency .calc {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 630px;
+}
+.exchange .container .currency .calc .calc-up, .exchange .container .currency .calc .calc-down {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: 1px solid rgba(50, 50, 50, 0.1);
+  margin-bottom: 10px;
+  width: 280px;
+}
+.exchange .container .currency .calc .calc-up input, .exchange .container .currency .calc .calc-down input {
+  border: none;
+  font-size: 15px;
+  font-weight: 700;
+  color: #000;
+  line-height: 47px;
+  width: 70%;
+  background: #fff;
+}
+.exchange .container .currency .calc .calc-up .flag, .exchange .container .currency .calc .calc-down .flag {
+  width: 18px;
+  height: 18px;
+  display: inline-block;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-right: 7px;
+}
+.exchange .container .currency .calc .calc-up select, .exchange .container .currency .calc .calc-down select {
+  border: none;
+  font-size: 15px;
+  font-weight: 400;
+}
+.exchange .container .currency .calc .calc-icon i {
+  width: 25px;
+  height: 10px;
+  color: #ff6400;
+}
+
+.new {
+  padding: 35px 0 0;
+}
+.new .container {
+  max-width: 1176px;
+  margin: 0 auto;
+}
+.new .container .cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.new .container .cards .card .inner .content {
+  border-radius: 10px;
+  height: 259px;
+  background-color: #fafafa;
+  padding: 30px;
+}
+.new .container .cards .card .inner .content:hover {
+  background-color: #ff6400;
+}
+.new .container .cards .card .inner .content:hover h3,
+.new .container .cards .card .inner .content:hover p,
+.new .container .cards .card .inner .content:hover span {
+  color: #fff;
+}
+.new .container .cards .card .inner .content h3 {
+  font-size: 16px;
+  font-weight: 700;
+  color: #ff6400;
+  margin-bottom: 10px;
+}
+.new .container .cards .card .inner .content p {
+  font-size: 14px;
+  font-weight: 100;
+  color: #000;
+  line-height: 23px;
+  margin-bottom: 15px;
+}
+.new .container .cards .card .inner .content span {
+  line-height: 12px;
+  font-weight: 400;
+  font-size: 12px;
+  color: rgba(50, 50, 50, 0.5);
+}
+.new .container .newsbtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+}
+.new .container .newsbtn button {
+  border: #ff6400;
+  border-radius: 29px;
+  padding: 17px 25px;
+  background: #ff6400;
+}
+.new .container .newsbtn button a {
+  font-size: 14px;
+  color: #fff;
+  line-height: 16px;
+  font-weight: 600;
+}
+
+.location {
+  padding: 35px 0 0;
+}
+.location .container {
+  max-width: 1176px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.location .container .cards {
+  display: flex;
+}
+.location .container .cards .utm,
+.location .container .cards .card {
+  background-color: #fafafa;
+  border-radius: 10px;
+  display: flex;
+  padding: 45px 65px;
+}
+.location .container .cards .utm .content h3,
+.location .container .cards .card .content h3 {
+  font-size: 28px;
+  color: #ff6400;
+  font-weight: 800;
+  margin-bottom: 23px;
+}
+.location .container .cards .utm .content p,
+.location .container .cards .card .content p {
+  font-weight: 400;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.8);
+}
+.location .container .cards .utm .content button,
+.location .container .cards .card .content button {
+  font-size: 14px;
+  font-weight: 700;
+  padding: 15px 40px;
+  background: #ff6400;
+  border-radius: 25px;
+  color: #fff;
+  border: #ff6400;
+  margin-top: 23px;
+}
+.location .container .cards .utm {
+  margin-right: 15px;
+}
+.location .container .cards .card {
+  margin-left: 15px;
+}
+
+.emanetler .container {
+  max-width: 1176px;
+  margin: 0 auto;
+}
+.emanetler .container h2 {
+  font-size: 32px;
+  margin-bottom: 30px;
+  color: #ff6400;
+  font-weight: 800;
+}
+.emanetler .container .emanet {
+  display: flex;
+  flex-wrap: wrap;
+}
+.emanetler .container .emanet .card {
+  width: 50%;
+  padding-right: 20px;
+}
+.emanetler .container .emanet .card .inner {
+  height: 306px;
+  padding: 45px 65px;
+  border-radius: 10px;
+  background: #fafafa;
+  margin-bottom: 30px;
+}
+.emanetler .container .emanet .card .inner .img {
+  color: #ff6b00;
+  font-size: 60px;
+  margin-bottom: 5px;
+}
+.emanetler .container .emanet .card .inner h2 {
+  color: black;
+  line-height: 24px;
+  font-weight: 800;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.emanetler .container .emanet .card .inner p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 25px;
+}
+.emanetler .container .emanet .card .inner .button-apply {
+  border-color: #ff6400;
+  padding: 16px 25px;
+  font-size: 14px;
+  line-height: 16px;
+  background: #ff6400;
+  border-radius: 25px;
+  margin-right: 10px;
+  color: #fff;
+}
+.emanetler .container .emanet .card .inner .button-apply i {
+  color: #fff;
+  margin-left: 15px;
+}
+
+.kreditler .container {
+  max-width: 1176px;
+  margin: 0 auto;
+}
+.kreditler .container h2 {
+  font-size: 32px;
+  font-weight: 800;
+  margin-bottom: 30px;
+  color: #ff6400;
+}
+.kreditler .container .kredit {
+  display: flex;
+  flex-wrap: wrap;
+}
+.kreditler .container .kredit .card {
+  width: 50%;
+  padding-right: 20px;
+}
+.kreditler .container .kredit .card .inner {
+  height: 306px;
+  padding: 45px 65px;
+  border-radius: 10px;
+  background: #fafafa;
+  margin-bottom: 30px;
+}
+.kreditler .container .kredit .card .inner .img {
+  color: #ff6b00;
+  font-size: 60px;
+  margin-bottom: 5px;
+}
+.kreditler .container .kredit .card .inner h2 {
+  color: black;
+  line-height: 24px;
+  font-weight: 800;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.kreditler .container .kredit .card .inner p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 25px;
+}
+.kreditler .container .kredit .card .inner .button-apply {
+  border-color: #ff6400;
+  padding: 16px 25px;
+  font-size: 14px;
+  line-height: 16px;
+  background: #ff6400;
+  border-radius: 25px;
+  margin-right: 10px;
+  color: #fff;
+}
+.kreditler .container .kredit .card .inner .button-apply i {
+  color: #fff;
+  margin-left: 15px;
+}
+.kreditler .container .kredit .card .inner .button-details {
+  padding: 14px 30px;
+  font-size: 14px;
+  border-radius: 25px;
+  color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  color: #545454 !important;
+  line-height: 16px !important;
+}
+
+.login {
+  background-color: #f4f4f4;
+  height: 100vh;
+}
+.login .container {
+  max-width: 1176px;
+  margin: 0 auto;
+}
+.login .container .sifaris {
+  max-width: 800px;
+  min-width: 742px;
+  display: block;
+  margin: 0 auto;
+}
+.login .container .sifaris .header {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 0px 30px;
+  width: 100%;
+}
+.login .container .sifaris .header .logo {
+  width: 117px;
+  height: 32px;
+}
+.login .container .sifaris .header .logo img {
+  width: 100%;
+  height: 100%;
+}
+.login .container .sifaris .header .filter {
+  position: relative;
+}
+.login .container .sifaris .header .filter img {
+  width: 24px;
+  position: absolute;
+  left: 10px;
+  top: 6px;
+}
+.login .container .sifaris .header .filter select {
+  width: 188px;
+  height: 37px;
+  font-size: 18px;
+  text-align: left;
+  background-color: white;
+  border-radius: 4px;
+  border: 1px solid #cccccc;
+  padding: 5px;
+  padding-left: 40px;
+}
+.login .container .sifaris .header .filter select option {
+  font-size: 1em;
+}
+.login .container .sifaris .content {
+  background: #fff;
+  border-radius: 5px;
+  padding-bottom: 50px;
+}
+.login .container .sifaris .content h2 {
+  text-align: center;
+  color: #F26F21;
+  font-size: 2.25em;
+  padding-top: 30px;
+}
+.login .container .sifaris .content .line {
+  width: 50%;
+  margin: 0 auto;
+  border-style: hidden;
+  background-color: #F26F21;
+  width: 85px;
+  height: 3px;
+}
+.login .container .sifaris .content .inputdiv {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 30px;
+  margin: 0 auto;
+  width: 680px;
+}
+.login .container .sifaris .content .inputdiv .input {
+  height: 55px;
+  width: 49%;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  margin-bottom: 25px;
+  margin-right: 6px;
+}
+.login .container .sifaris .content .inputdiv .input .img {
+  position: relative;
+}
+.login .container .sifaris .content .inputdiv .input .img img {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  top: 32%;
+  left: 15px;
+}
+.login .container .sifaris .content .inputdiv .input .img input {
+  font-size: 1.125em;
+  border-radius: 4px;
+  border: 1px solid #cccccc;
+  padding: 15px 3px 15px 40px;
+  margin: 10px 0;
+  width: 329px;
+  height: 55px;
+}
+.login .container .sifaris .content .inputdiv label {
+  font-size: 14px;
+  color: #69757C;
+}
+.login .container .sifaris .content .submit {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 24px;
+}
+.login .container .sifaris .content .submit button {
+  background-color: rgb(242, 111, 33);
+  border: none;
+  border-radius: 4px;
+  width: 150px;
+  height: 40px;
+}
+.login .container .sifaris .content .submit button a {
+  font-size: 1em;
+  font-weight: bold;
+  color: white;
+}
+
+.innovation .container {
+  max-width: 1176px;
+  margin: 0 auto;
+}
+.innovation .container h2 {
+  font-size: 32px;
+  line-height: 32px;
+  font-weight: 800;
+  color: #ff6400;
+  margin-bottom: 20px;
+}
+.innovation .container .news .card {
+  padding: 35px 30px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  background-color: #fafafa;
+}
+.innovation .container .news .card:hover {
+  color: #fff;
+  background: #ff6400;
+}
+.innovation .container .news .card:hover .inner h3, .innovation .container .news .card:hover .inner p, .innovation .container .news .card:hover .inner span {
+  color: #fff;
+}
+.innovation .container .news .card .inner h3 {
+  font-size: 16px;
+  font-weight: 700;
+  color: #000;
+  margin-bottom: 10px;
+}
+.innovation .container .news .card .inner p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #000;
+  line-height: 1.43;
+  margin-bottom: 20px;
+}
+.innovation .container .news .card .inner span {
+  font-size: 12px;
+  color: #a1a1a1;
+  line-height: 12px;
+}
+
+.partnyor .container {
+  max-width: 1176px;
+  margin: 0 auto;
+}
+.partnyor .container h2 {
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 32px;
+  color: #ff6400;
+  margin-bottom: 30px;
+}
+.partnyor .container .cashback {
+  display: flex;
+  border-radius: 10px;
+  background: #fafafa;
+  padding: 5px 20px;
+}
+.partnyor .container .cashback .selectholder {
+  width: 25%;
+  margin: 30px 8px;
+}
+.partnyor .container .cashback .selectholder p {
+  font-size: 14px;
+  color: #000;
+  font-weight: 400;
+  margin-bottom: 10px;
+  padding-left: 30px;
+}
+.partnyor .container .cashback .selectholder select {
+  font-size: 14px;
+  font-weight: 800;
+  line-height: 23px;
+  background-color: #fff;
+  color: #ff7a00;
+  border-radius: 30px;
+  border: 1px solid rgba(50, 50, 50, 0.1);
+  width: 100%;
+  height: 60px;
+  padding: 0 30px;
+}
+.partnyor .container .cashback .selectholder input {
+  border-radius: 30px;
+  border: 1px solid rgba(50, 50, 50, 0.1);
+  width: 100%;
+  height: 60px;
+  padding: 0 30px;
+}
+.partnyor .container .partnyorlar {
+  display: flex;
+  flex-wrap: wrap;
+}
+.partnyor .container .partnyorlar .cards {
+  display: flex;
+}
+.partnyor .container .partnyorlar .cards .card {
+  width: 20%;
+  margin-left: 5px;
+  background: #fafafa;
+  border-radius: 10px;
+  padding: 45px 50px;
+  margin-top: 10px;
+  height: 424px;
+  width: 286px;
+}
+.partnyor .container .partnyorlar .cards .card .inner {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.partnyor .container .partnyorlar .cards .card .inner .img {
+  height: 75px;
+  margin-bottom: 30px;
+}
+.partnyor .container .partnyorlar .cards .card .inner .img img {
+  width: 100%;
+  height: 100%;
+}
+.partnyor .container .partnyorlar .cards .card .inner h3 {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 14px;
+}
+.partnyor .container .partnyorlar .cards .card .inner p {
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.5);
+  margin-bottom: 15px;
+}
+.partnyor .container .partnyorlar .cards .card .inner .month {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.partnyor .container .partnyorlar .cards .card .inner .month .credit-option {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 3px;
+  width: 58px;
+  height: 58px;
+  border-radius: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 10px;
+  background: #fff;
+}
+.partnyor .container .partnyorlar .cards .card .inner .month .credit-option .zero-percent {
+  margin-top: 5px;
+  font-size: 12px;
+  font-weight: 800;
+  color: #ff6400;
+}
+.partnyor .container .partnyorlar .cards .card .inner .cash {
+  width: 100%;
+  height: 50px;
+  border-radius: 30px;
+  padding: 16px 20px;
+  background: #ff6400;
+  font-weight: 400;
+  font-size: 0.9em;
+  color: #fff;
+}
+
+body.dark_mode {
+  background-color: black;
+  color: #fff;
+}
+body.dark_mode .site-header {
+  background-color: black;
+}
+body.dark_mode .site-header .top {
+  background-color: black;
+}
+body.dark_mode .site-header .top .container .topbar .menu li a {
+  color: #fff;
+}
+body.dark_mode .site-header .top .container .topbar .hidden-mobile #btn1,
+body.dark_mode .site-header .top .container .topbar .hidden-mobile #btn2 {
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+}
+body.dark_mode .site-header .top .container .topbar .hidden-mobile #btn2 {
+  border: rgba(255, 255, 255, 0.1);
+}
+body.dark_mode .site-header .top .container .topbar .toggle-btn button {
+  background: #fff;
+}
+body.dark_mode .site-header .top .container .topbar .toggle-btn button i {
+  color: black;
+}
+body.dark_mode .site-header .top .container .topbar .all button {
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+}
+body.dark_mode .site-header .container {
+  background-color: black;
+  color: #fff;
+}
+body.dark_mode .site-header .container .menubar .menus li a {
+  color: #fff;
+}
+body.dark_mode .site-header .container .phone a {
+  background-color: black;
+  border: 1px solid #969696;
+}
+body.dark_mode .site-header .container .phone a span {
+  color: #fff;
+}
+body.dark_mode .wrapper .cards .card .inner {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+body.dark_mode .wrapper .cards .card .inner .content h3 {
+  color: #fff;
+}
+body.dark_mode .wrapper .cards .card .inner .content h2 {
+  color: #ff6400;
+}
+body.dark_mode .wrapper .cards .card .inner .content p {
+  color: #fff;
+}
+body.dark_mode .wrapper .cards .card .inner .content button {
+  color: #ff6400;
+  color: #fff;
+}
+body.dark_mode .ucard .container {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+body.dark_mode .ucard .container .content p {
+  color: #fff;
+}
+body.dark_mode .ucard .container .content .btn-mobile .btn button {
+  color: #fff;
+  background-color: #ff6400;
+  border: #ff6400;
+}
+body.dark_mode .ucard .container .content .btn-mobile button {
+  background-color: rgba(30, 30, 30, 0.1);
+  border: 1px solid #969696;
+}
+body.dark_mode .ucard .container .content .btn-mobile button a {
+  color: #545454;
+}
+body.dark_mode .ubank .container {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+body.dark_mode .ubank .container .content p {
+  color: #fff;
+}
+body.dark_mode .ubank .container .content .store img {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #969696;
+  border: 1px solid #969696;
+  border-radius: 5px;
+}
+body.dark_mode .exchange .container {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+body.dark_mode .exchange .container #exchangeRates .exchange-cash h3, body.dark_mode .exchange .container #exchangeRates .exchange-cash span, body.dark_mode .exchange .container #exchangeRates .exchange-noncash h3, body.dark_mode .exchange .container #exchangeRates .exchange-noncash span, body.dark_mode .exchange .container #exchangeRates .exchange-card h3, body.dark_mode .exchange .container #exchangeRates .exchange-card span {
+  color: #fff;
+}
+body.dark_mode .exchange .container #exchangeRates .exchange-cash table th, body.dark_mode .exchange .container #exchangeRates .exchange-noncash table th, body.dark_mode .exchange .container #exchangeRates .exchange-card table th {
+  color: rgba(255, 255, 255, 0.5);
+}
+body.dark_mode .exchange .container #exchangeRates .exchange-cash table td, body.dark_mode .exchange .container #exchangeRates .exchange-noncash table td, body.dark_mode .exchange .container #exchangeRates .exchange-card table td {
+  color: #fff;
+}
+body.dark_mode .exchange .container .currency {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+body.dark_mode .exchange .container .currency h3, body.dark_mode .exchange .container .currency p {
+  color: #fff;
+}
+body.dark_mode .exchange .container .currency .calc .calc-up, body.dark_mode .exchange .container .currency .calc .calc-down, body.dark_mode .exchange .container .currency .calc input, body.dark_mode .exchange .container .currency .calc select {
+  background-color: #464646;
+  color: #fff;
+}
+body.dark_mode .new .container .cards .card {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+body.dark_mode .new .container .cards .card .inner .content {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+body.dark_mode .new .container .cards .card .inner .content h3 {
+  color: #fff;
+}
+body.dark_mode .new .container .cards .card .inner .content p {
+  color: #fff;
+}
+body.dark_mode .new .container .cards .card .inner .content span {
+  color: #fff;
+}
+body.dark_mode .location .container .cards .utm {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+body.dark_mode .location .container .cards .utm .content p {
+  color: #fff;
+}
+body.dark_mode .location .container .cards .card {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+body.dark_mode .location .container .cards .card .content p {
+  color: #fff;
+}
+body.dark_mode .crbar .container .footermenus .menu .firstmenu a {
+  color: #fff;
+}
+body.dark_mode .crbar .container .footermenus .menu .child a {
+  color: #fff;
+}
+body.dark_mode .crbar .container .socnets i {
+  color: black;
+}
+body.dark_mode .kreditler .container .kredit .card .inner {
+  background: rgba(255, 255, 255, 0.1);
+}
+body.dark_mode .kreditler .container .kredit .card .inner h2 {
+  color: #fff;
+}
+body.dark_mode .kreditler .container .kredit .card .inner p {
+  color: #fff;
+}
+body.dark_mode .kreditler .container .kredit .card .inner .button-details {
+  border-color: #969696;
+  background: rgba(25, 24, 24, 0.1);
+  color: #545454;
+}
+body.dark_mode .emanetler .container .emanet .card .inner {
+  background: rgba(255, 255, 255, 0.1);
+}
+body.dark_mode .emanetler .container .emanet .card .inner h2 {
+  color: #fff;
+}
+body.dark_mode .emanetler .container .emanet .card .inner p {
+  color: #fff;
+}
+body.dark_mode .emanetler .container .emanet .card .inner .button-details {
+  border-color: #969696;
+  background: rgba(255, 255, 255, 0.1);
+  color: #545454;
+}
+body.dark_mode .partnyor .container .cashback {
+  background: rgba(255, 255, 255, 0.1);
+}
+body.dark_mode .partnyor .container .cashback .selectholder p {
+  color: #fff;
+}
+body.dark_mode .partnyor .container .cashback .selectholder select {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #fff;
+}
+body.dark_mode .partnyor .container .cashback .selectholder input {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #fff;
+}
+body.dark_mode .partnyor .container .partnyorlar .cards .card {
+  background: rgba(255, 255, 255, 0.1);
+}
+body.dark_mode .partnyor .container .partnyorlar .cards .card .inner h3, body.dark_mode .partnyor .container .partnyorlar .cards .card .inner p, body.dark_mode .partnyor .container .partnyorlar .cards .card .inner span {
+  color: #fff;
+}
+body.dark_mode .partnyor .container .partnyorlar .cards .card .inner .credit-option {
+  color: #fff;
+  background-color: black;
+}
+body.dark_mode .innovation .container .card {
+  background: rgba(255, 255, 255, 0.1);
+}
+body.dark_mode .innovation .container .card .inner h3,
+body.dark_mode .innovation .container .card .inner p,
+body.dark_mode .innovation .container .card .inner span {
+  color: #fff;
+}/*# sourceMappingURL=style.css.map */

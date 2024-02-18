@@ -1,0 +1,56 @@
+.innovation {
+    .container {
+        max-width: 1176px;
+        margin: 0 auto;
+    
+        h2 {
+            font-size: 32px;
+            line-height: 32px;
+            font-weight: 800;
+            color: $bg;
+            margin-bottom: 20px;
+           
+        }
+    
+        .news {
+            .card {
+                padding: 35px 30px;
+                margin-bottom: 10px;
+                border-radius: 10px;
+                background-color: #fafafa;
+                &:hover {
+                    color: #fff;
+                    background: $bg;
+        
+                    .inner {
+                        h3,p, span {
+                            color: #fff;
+                        }
+                    }
+                }
+                .inner {
+                    h3 {
+                        font-size: 16px;
+                        font-weight: 700;
+                        color: #000;
+                        margin-bottom: 10px;
+                    }
+    
+                    p {
+                        font-size: 14px;
+                        font-weight: 400;
+                        color: #000;
+                        line-height: 1.43;
+                        margin-bottom: 20px;
+                    }
+                    span {
+                        font-size: 12px;
+                        color: #a1a1a1;
+                        line-height: 12px;
+                        
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,77 @@
+.kreditler {
+    .container {
+        max-width: 1176px;
+        margin: 0 auto;
+
+        h2 {
+            font-size: 32px;
+            font-weight: 800;
+            margin-bottom: 30px;
+            color: $bg;
+        }
+
+        .kredit {
+            display: flex;
+            flex-wrap: wrap;
+
+            .card {
+                width: 50%;
+                padding-right: 20px;
+
+                .inner {
+                    height: 306px;
+                    padding: 45px 65px;
+                    border-radius: 10px;
+                    background: #fafafa;
+                    margin-bottom: 30px;
+
+                    .img {
+                        color: #ff6b00;
+                        font-size: 60px;
+                        margin-bottom: 5px;
+                    }
+
+                    h2 {
+                        color: black;
+                        line-height: 24px;
+                        font-weight: 800;
+                        font-size: 24px;
+                        margin-bottom: 10px;
+
+                    }
+
+                    p {
+                        font-weight: 400;
+                        font-size: 14px;
+                        line-height: 20px;
+                        margin-bottom: 25px;
+                    }
+
+                    .button-apply {
+                        border-color: $bg;
+                        padding: 16px 25px;
+                        font-size: 14px;
+                        line-height: 16px;
+                        background: $bg;
+                        border-radius: 25px;
+                        margin-right: 10px;
+                        color: #fff;
+                        i {
+                            color: #fff;
+                           margin-left: 15px;
+                        }
+                    }
+                    .button-details {
+                        padding: 14px 30px;
+                        font-size: 14px;
+                        border-radius: 25px;
+                        color: #fff;
+                        border: 1px solid rgba(0,0,0,.1);
+                        color: #545454!important;
+                        line-height: 16px!important;
+                    }
+                }
+            }
+        }
+    }
+}
