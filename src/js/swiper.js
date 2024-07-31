@@ -3,4 +3,5 @@ var swiper = new Swiper(".Unibank", {
     el: ".swiper-pagination",
     clickable: true,
   },
+  loop:true,
 });

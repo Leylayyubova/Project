@@ -140,7 +140,7 @@
                         margin-top: 15px;
                         padding: 15px 45px;
                         border: $primary;
-
+                        cursor: pointer;
                     }
                 }
             }
@@ -210,6 +210,7 @@
                         background: $bg;
                         border-radius: 25px;
                         border: 1px solid transparent;
+                        cursor: pointer;
                     }
                 }
 
@@ -279,6 +280,7 @@
                 border-radius: 25px;
                 border: $bg;
                 background: $bg;
+                cursor: pointer;
             }
 
         }
@@ -416,8 +418,9 @@
                 align-items: center;
                 justify-content: space-between;
                 width: 630px;
-                
-                .calc-up, .calc-down {
+
+                .calc-up,
+                .calc-down {
                     display: flex;
                     align-items: center;
                     justify-content: center;
@@ -426,6 +429,7 @@
                     border: 1px solid rgba(50, 50, 50, .1);
                     margin-bottom: 10px;
                     width: 280px;
+
                     input {
                         border: none;
                         font-size: 15px;
@@ -435,21 +439,24 @@
                         width: 70%;
                         background: #fff;
                     }
+
                     .flag {
                         width: 18px;
                         height: 18px;
                         display: inline-block;
-                        background-size: contain; 
+                        background-size: contain;
                         background-repeat: no-repeat;
                         margin-right: 7px;
                     }
+
                     select {
                         border: none;
                         font-size: 15px;
                         font-weight: 400;
                     }
-                    
+
                 }
+
                 .calc-icon {
                     i {
                         width: 25px;
@@ -530,7 +537,6 @@
             display: flex;
             justify-content: center;
             align-items: center;
-
             margin-top: 25px;
 
             button {
@@ -597,7 +603,8 @@
                         border-radius: 25px;
                         color: #fff;
                         border: $bg;
-                        margin-top: 23px
+                        margin-top: 23px;
+                        cursor: pointer;
                     }
                 }
             }

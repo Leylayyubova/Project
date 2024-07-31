@@ -381,6 +381,7 @@ ul {
   margin-top: 15px;
   padding: 15px 45px;
   border: #ff7a00;
+  cursor: pointer;
 }
 
 .ucard {
@@ -438,6 +439,7 @@ ul {
   background: #ff6400;
   border-radius: 25px;
   border: 1px solid transparent;
+  cursor: pointer;
 }
 .ucard .container .content .btn-mobile button {
   background: #fff;
@@ -493,6 +495,7 @@ ul {
   border-radius: 25px;
   border: #ff6400;
   background: #ff6400;
+  cursor: pointer;
 }
 .ubank .container .img {
   margin-top: -95px;
@@ -621,7 +624,8 @@ ul {
   justify-content: space-between;
   width: 630px;
 }
-.exchange .container .currency .calc .calc-up, .exchange .container .currency .calc .calc-down {
+.exchange .container .currency .calc .calc-up,
+.exchange .container .currency .calc .calc-down {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -631,7 +635,8 @@ ul {
   margin-bottom: 10px;
   width: 280px;
 }
-.exchange .container .currency .calc .calc-up input, .exchange .container .currency .calc .calc-down input {
+.exchange .container .currency .calc .calc-up input,
+.exchange .container .currency .calc .calc-down input {
   border: none;
   font-size: 15px;
   font-weight: 700;
@@ -640,7 +645,8 @@ ul {
   width: 70%;
   background: #fff;
 }
-.exchange .container .currency .calc .calc-up .flag, .exchange .container .currency .calc .calc-down .flag {
+.exchange .container .currency .calc .calc-up .flag,
+.exchange .container .currency .calc .calc-down .flag {
   width: 18px;
   height: 18px;
   display: inline-block;
@@ -648,7 +654,8 @@ ul {
   background-repeat: no-repeat;
   margin-right: 7px;
 }
-.exchange .container .currency .calc .calc-up select, .exchange .container .currency .calc .calc-down select {
+.exchange .container .currency .calc .calc-up select,
+.exchange .container .currency .calc .calc-down select {
   border: none;
   font-size: 15px;
   font-weight: 400;
@@ -766,6 +773,7 @@ ul {
   color: #fff;
   border: #ff6400;
   margin-top: 23px;
+  cursor: pointer;
 }
 .location .container .cards .utm {
   margin-right: 15px;
