@@ -68,12 +68,14 @@
                             background: #fff;
                             border-radius: 5px;
                             border: 1px solid #fff;
+                            cursor: pointer;
                         }
 
                         .active-btn {
                             border: 1px solid $primary;
                             color: $primary;
                             font-weight: 600;
+                            cursor: pointer;
 
                         }
 
@@ -88,6 +90,7 @@
                             background-color: #323232;
                             width: 35px;
                             height: 35px;
+                            cursor: pointer;
 
 
                             i {
@@ -117,6 +120,8 @@
                             width: 36px;
                             height: 35px;
                             margin-left: 10px;
+                            cursor: pointer;
+
                         }
                     }
                 }
